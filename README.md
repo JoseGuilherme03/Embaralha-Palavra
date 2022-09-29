@@ -31,7 +31,7 @@ poetry shell
 - Execute o script:
 
 ```bash
-python Embaralha_Palavra-Game.py
+python embaralha.py
 ```
 
 - Se preferir, abra o vscode:

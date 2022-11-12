@@ -21,7 +21,7 @@ dificuldade = menu("Nivel de Dificuldade:", ["Facil", "Intermediário", "Dificil
 
 
 # Sorteia uma palavra de acordo com o tema e dificuldade escolhido
-dificuldade = dificuldade - 1
+dificuldade -= 1
 
 if tema == 1:
     palavra_sorteada = choice(palavras["cidades"][dificuldade])
